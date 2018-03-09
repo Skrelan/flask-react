@@ -1,0 +1,19 @@
+{
+  "name": "flask-react",
+  "version": "1.0.0",
+  "description": "This repository is home to the boiler plate code used to run a simple ReactJS app that interacts with python Flask backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skrelan/flask-react.git"
+  },
+  "author": "Suryaa Kumara Relan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skrelan/flask-react/issues"
+  },
+  "homepage": "https://github.com/Skrelan/flask-react#readme"
+}
