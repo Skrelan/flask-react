@@ -4,6 +4,9 @@
   "description": "This repository is home to the boiler plate code used to run a simple ReactJS app that interacts with python Flask backend",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/Skrelan/flask-react#readme",
   "devDependencies": {
     "webpack": "^4.1.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^2.0.10"
   }
 }
